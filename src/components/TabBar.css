@@ -1,0 +1,41 @@
+.tab-bar {
+  display: flex;
+  gap: 0;
+  margin-bottom: 16px;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 10px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
+  color: #ccc;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.tab-btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.tab-btn:last-child {
+  border-radius: 0 6px 6px 0;
+}
+
+.tab-btn:not(:last-child) {
+  border-right: none;
+}
+
+.tab-btn:hover {
+  background: rgba(212, 168, 67, 0.1);
+  color: #d4a843;
+}
+
+.tab-btn.tab-active {
+  background: #d4a843;
+  color: #1a1a2e;
+  border-color: #d4a843;
+}

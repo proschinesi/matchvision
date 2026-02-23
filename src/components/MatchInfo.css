@@ -1,0 +1,84 @@
+.match-info {
+  background: #1e1e30;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+
+.match-info-header {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 13px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.match-info-teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.home-team {
+  justify-content: flex-start;
+}
+
+.away-team {
+  justify-content: flex-end;
+}
+
+.team-name {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.match-score-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  min-width: 80px;
+}
+
+.match-score-date {
+  font-size: 11px;
+  color: #888;
+}
+
+.match-score {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d4a843;
+}
+
+.match-scorers {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.scorer {
+  color: #ccc;
+  font-size: 13px;
+}
+
+.scorer-icon {
+  font-size: 14px;
+  opacity: 0.6;
+}

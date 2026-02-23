@@ -1,0 +1,70 @@
+.action-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.action-btn {
+  position: relative;
+  padding: 14px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: transparent;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.action-btn:hover {
+  border-color: rgba(212, 168, 67, 0.4);
+  background: rgba(212, 168, 67, 0.05);
+}
+
+.action-btn.action-selected {
+  border-color: #d4a843;
+  background: rgba(212, 168, 67, 0.12);
+  color: #d4a843;
+}
+
+.action-check {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  background: #4caf50;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 10px;
+}
+
+.action-play-btn {
+  align-self: center;
+  padding: 10px 48px;
+  border: none;
+  border-radius: 8px;
+  background: #d4a843;
+  color: #1a1a2e;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 4px;
+}
+
+.action-play-btn:hover {
+  background: #e0b84e;
+  transform: scale(1.02);
+}
